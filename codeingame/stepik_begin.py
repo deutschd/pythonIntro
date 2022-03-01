@@ -85,8 +85,8 @@ print('timer upgrade - health identification-normal-oversleeping\n')
 # elif H > B:
 #     print('Пересып')
 print('leap year or not\n')
-year = int(input())
-if year % 400 == 0 or year % 100 != 0 and year % 4 == 0:
-    print('Високосный')
-else:
-    print('Обычный')
+# year = int(input())
+# if year % 400 == 0 or year % 100 != 0 and year % 4 == 0:
+#     print('Високосный')
+# else:
+#     print('Обычный')
