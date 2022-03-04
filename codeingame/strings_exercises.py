@@ -58,7 +58,7 @@ print('find an area of a object = triangle, rectanle, circle\n')
 #     r = int(input())
 #     print(pi * (r ** 2))
 
-print('one max -> one min -> any\n')
+print('one max -> one min -> any number\n')
 # a = int(input())
 # b = int(input())
 # c = int(input())
