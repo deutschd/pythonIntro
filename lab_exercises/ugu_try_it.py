@@ -38,12 +38,6 @@ class Ancestor:
     def work(self):
         print("Ancestor.work")
 
+print(type(type))
 
-class Child(Ancestor):
-    def __init__(self):
-        print("Child.__init__")
-
-    def fun(self):
-        print("Child.fun")
-
-c =
+print(1.0 + True)
