@@ -150,6 +150,17 @@ print("Exercise\n")
 #     print("It's the odd number")
 
 
+print("Iteration/Looping - while/for")
+print("While Loop\n")
+count = 0
+print('Starting')
+while count < 10:
+    print(count, '- ', end='')
+    count += 1
+print('Done')
+
+
+
 
 
 
