@@ -7,6 +7,8 @@ print('"Hello ", + user_name\n')
 # print('Hello ', user_name)
 # print(len(user_name))
 # print(user_name[3])
+
+
 print("Python Statements\n")
 # city = "xyz"
 # number_of_people_in_city = 123
@@ -88,6 +90,64 @@ print('Exercise 1\n')
 # print(new_string.upper())
 # print(new_string.find('Albus'))
 
+
+print("Numbers, Booleans and None\n")
+# status = bool(input('well: '))  # check if there is something written or not True - False
+# print(status)
+# import decimal
+# print(100/20)  # float 5.0
+# print(3//2)  # int 1
+print("Flow of Control Using If Statements\n")
+# num = int(input('Enter a number: '))
+# if num < 0:
+#     print(num, 'is negative')
+# elif num > 0:
+#     print(num, 'is positive')
+# elif num == 0:
+#     print("ok, it's a zero")
+# else:
+#     print('pls, enter a number next time...')
+print("The Use of elif\n")
+# savings = float(input("Enter how much you have in savings: "))
+# if savings == 0:
+#     print("Sorry no savings")
+# elif savings < 500:
+#     print('Well done')
+# elif savings < 1000:
+#     print("That's a tidy sum")
+# elif savings < 10000:
+#     print('Welcome!')
+# elif savings >= 10000:
+#     print("That's a lot, good")
+# else:
+#     print('Thank you for response')
+print("Nesting If Statements\n")
+# snowing = True
+# temp = -1
+# if temp < 0:
+#     print('It is freezing')
+#     if snowing:
+#         print('Put on boots')
+#     print('Time for Hot Chocolat')
+# print('Bye')
+print("If Expressions\n")
+# age = 15
+# status = None
+# if (age > 12) and age < 20:
+#     status = 'teenager'
+# else:
+#     status = 'not teenager'
+# print(status)
+#
+# status = ('teenager' if 12 < age < 20 else 'not teenager')
+# print(status)
+
+print("Exercise\n")
+# num = int(input('Enter a number(integer): '))
+# if num % 2 == 0:
+#     print("It's the even number")
+# else:
+#     print("It's the odd number")
 
 
 
