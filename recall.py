@@ -158,6 +158,7 @@ while count < 10:
     print(count, '- ', end='')
     count += 1
 print('Done')
+print("For Loop\n")
 
 
 
