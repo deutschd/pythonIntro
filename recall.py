@@ -180,13 +180,64 @@ for i in range(0, 10):
     print('hey its an even number')
     print('we love even numbers')
 print('Done')
+print("For Loop with Else\n")
+# print('Only print code if all iterations completed')
+# num = int(input('Enter a number to check for: '))
+# for i in range(0, 6):
+#     if i == num:
+#         break
+#     print(i, '', end='')
+# else:
+#     print('\nAll iterations successful')
 
+print("Dice Roll Game\n")
+# import random
+# MIN = 1
+# MAX = 6
+#
+# roll_again = 'y'
+# while roll_again == 'y':
+#     print('Rolling the dices...\nThe values are...')
+#     dice1 = random.randint(MIN, MAX)
+#     print(dice1)
+#     dice2 = random.randint(MIN, MAX)
+#     print(dice2)
+#     roll_again = input('Roll the dices again? (y/n): ')
 
+print("Exercise 1 - Calculate the Factorial of a Number\n")
+# num = int(input('Enter a number: '))
+# factorial = 1
+# if num < 0:
+#     print('Error, please enter positive integer...')
+# if num == 0:
+#     print(f'factorial of {num} is 1')
+# else:
+#     for i in range(1, num + 1):
+#         factorial = factorial * i
+#     print("The factorial of", num, "is", factorial)
+#
+#
+# def factorial(x):
+#     if x == 1:
+#         return 1
+#     else:
+#         return x * factorial(x - 1)
+#
+#
+# result = factorial(num)
+# print("The factorial of", num, "is", result)
 
+print("Exercise 2 - Print All the Prime Numbers in a Range\n")
+start = int(input("Enter the lower bound: "))
+stop = int(input("Enter the upper bound: "))
 
-
-
-
-
-
-
+print("Prime numbers between", start, "and", stop, "are:")
+for val in range(start, stop):
+    if val < 1:
+        print('more than 2 pls')
+    if val > 1:
+        for i in range(2, val):
+            if (val % i) == 0:
+                break
+        else:
+            print(val, end=' ')
