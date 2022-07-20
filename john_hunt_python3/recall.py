@@ -228,17 +228,75 @@ print("Exercise 1 - Calculate the Factorial of a Number\n")
 # print("The factorial of", num, "is", result)
 
 print("Exercise 2 - Print All the Prime Numbers in a Range\n")
-start = int(input("Enter the lower bound: "))
-stop = int(input("Enter the upper bound: "))
+# start = int(input("Enter the lower bound: "))
+# stop = int(input("Enter the upper bound: "))
+#
+# print("Prime numbers between", start, "and", stop, "are:")
+# for val in range(start, stop):
+#     if val < 1:
+#         print('more than 2 pls')
+#     if val > 1:
+#         for i in range(2, val):
+#             if (val % i) == 0:
+#                 break
+#         else:
+#             print(val, end=' ')
 
-print("Prime numbers between", start, "and", stop, "are:")
-for val in range(start, stop):
-    if val < 1:
-        print('more than 2 pls')
-    if val > 1:
-        for i in range(2, val):
-            if (val % i) == 0:
-                break
-        else:
-            print(val, end=' ')
+
+print("Recursion\n")
+
+
+def factorial(n):
+    if n == 1:
+        return 1
+    else:
+        res = n * factorial(n - 1)
+        return res
+
+
+print(factorial(5))
+
+
+# behavior indicator of recursion (in factorial)
+def factorial(n, depth=1):
+    if n == 1:
+        print('\t' * depth, 'Returning 1')
+        return 1
+    else:
+        print('\t' * depth, 'Recursively calling factorial(', n - 1, ')')
+        result = n * factorial(n - 1, depth + 1)
+        print('\t' * depth, 'Returning:', result)
+        return result
+
+
+print('Calling factorial( 5 )')
+print(factorial(5))
+
+print('Tail recursive factorial function\n')
+# def tail_factorial(n, accumulator=1):
+#     if n == 0:
+#         return accumulator
+#     else:
+#         return tail_factorial(n - 1, accumulator * n)
+#
+#
+# print(tail_factorial(5))
+
+
+print("recursion - Prime number - True/False")
+# n = int(input('Enter a number'))
+#
+#
+# def is_prime(n, i = 2):
+#     if n <= 2:
+#         return True if (n == 2) else False
+#     if n % i == 0:
+#         return False
+#     if i * i > n:
+#         return True
+#     return is_prime(n, i + 1)
+#
+#
+# print('is prime:', is_prime(n))
+
 
