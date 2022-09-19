@@ -15,3 +15,57 @@ Read port: 51737
 console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Shakhzod\\AppData\\Local\\Temp\\rust_mozprofilefYdrjY\\search.json.mozlz4", (void 0)))
 DevTools listening on ws://localhost:51728/devtools/browser/96acb9df-03a9-4ba8-9156-b798ad53922e
 1663431674714	Marionette	INFO	Stopped listening on port 51737
+1663563684711	geckodriver	INFO	Listening on 127.0.0.1:50119
+1663563687801	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50120" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Shakhzod\\AppData\\Local\\Temp\\rust_mozprofilesiz71Q"
+1663563688799	Marionette	INFO	Marionette enabled
+1663563688807	Marionette	INFO	Listening on port 50130
+WebDriver BiDi listening on ws://localhost:50120
+Read port: 50130
+1663563689050	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Shakhzod\\AppData\\Local\\Temp\\rust_mozprofilesiz71Q\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:50120/devtools/browser/89b09ac2-5e50-470f-8f61-4757db9ade28
+1663563700933	Marionette	INFO	Stopped listening on port 50130
+1663566175815	geckodriver	INFO	Listening on 127.0.0.1:50734
+1663566178884	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50735" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Shakhzod\\AppData\\Local\\Temp\\rust_mozprofileqaWsFL"
+1663566179508	Marionette	INFO	Marionette enabled
+1663566179520	Marionette	INFO	Listening on port 50745
+WebDriver BiDi listening on ws://localhost:50735
+Read port: 50745
+1663566179732	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Shakhzod\\AppData\\Local\\Temp\\rust_mozprofileqaWsFL\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:50735/devtools/browser/fe35a005-691a-47bf-ac68-f0a9efc4010b
+JavaScript warning: https://pagead2.googlesyndication.com/bg/SUiySqS1in-YUNsSXtQt1jv3ON6UQ0EMqlXBaZ_BtMI.js line 2 > eval line 5104 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/SUiySqS1in-YUNsSXtQt1jv3ON6UQ0EMqlXBaZ_BtMI.js line 2 > eval line 1645 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1663566190902	Marionette	INFO	Stopped listening on port 50745
+1663566242865	geckodriver	INFO	Listening on 127.0.0.1:50837
+1663566245933	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50838" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Shakhzod\\AppData\\Local\\Temp\\rust_mozprofileVX4BYF"
+1663566246438	Marionette	INFO	Marionette enabled
+1663566246447	Marionette	INFO	Listening on port 50847
+WebDriver BiDi listening on ws://localhost:50838
+Read port: 50847
+1663566246624	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Shakhzod\\AppData\\Local\\Temp\\rust_mozprofileVX4BYF\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:50838/devtools/browser/de0f46cf-9627-42d5-8ed4-fa31cbaeaa5f
+JavaScript warning: https://pagead2.googlesyndication.com/bg/SUiySqS1in-YUNsSXtQt1jv3ON6UQ0EMqlXBaZ_BtMI.js line 2 > eval line 3325 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1663566262491	Marionette	INFO	Stopped listening on port 50847
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1663566266689	geckodriver	INFO	Listening on 127.0.0.1:50918
+1663566269752	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50919" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Shakhzod\\AppData\\Local\\Temp\\rust_mozprofilezRyxdz"
+1663566270278	Marionette	INFO	Marionette enabled
+1663566270286	Marionette	INFO	Listening on port 50928
+WebDriver BiDi listening on ws://localhost:50919
+Read port: 50928
+1663566270461	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Shakhzod\\AppData\\Local\\Temp\\rust_mozprofilezRyxdz\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:50919/devtools/browser/f3b8ba9e-db83-4c51-96a0-cbc2c9dc62d8
+JavaScript warning: https://pagead2.googlesyndication.com/bg/SUiySqS1in-YUNsSXtQt1jv3ON6UQ0EMqlXBaZ_BtMI.js line 2 > eval line 3845 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1663566280225	Marionette	INFO	Stopped listening on port 50928
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1108: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\Shakhzod\AppData\Local\Temp\rust_mozprofilezRyxdz\protections.sqlite
