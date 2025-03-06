@@ -33,19 +33,19 @@ while not finished:
 
 print('Bye')
 
-def check_if_user_has_finished():
-    """
-    Checks that the user wants to finish or not.
-    Performs some verification of the input."""
-    ok_to_finish = True
-    user_input_accepted = False
-    while not user_input_accepted:
-        user_input = input('Do you want to finish (y/n): ')
-        if user_input == 'y':
-            user_input_accepted = True
-        elif user_input == 'n':
-            ok_to_finish = False
-            user_input_accepted = True
-        else:
-            print('Response must be (y/n), please try again')
-    return ok_to_finish
+# def check_if_user_has_finished():
+#     """
+#     Checks that the user wants to finish or not.
+#     Performs some verification of the input."""
+#     ok_to_finish = True
+#     user_input_accepted = False
+#     while not user_input_accepted:
+#         user_input = input('Do you want to finish (y/n): ')
+#         if user_input == 'y':
+#             user_input_accepted = True
+#         elif user_input == 'n':
+#             ok_to_finish = False
+#             user_input_accepted = True
+#         else:
+#             print('Response must be (y/n), please try again')
+#     return ok_to_finish
